@@ -2,12 +2,18 @@
   text-align: center;
   background-color: #f5f6f9;
 }
-/* #cursorImg-0 {
-  width: 10px;
-} */
+#cursorImg-0 {
+  /* display: none; */
+  /* width: 1px !important; */
+}
 #audio {
   position: fixed;
   top: 40px;
+  right: 0;
+}
+#audio1{
+  position: fixed;
+  top: 70px;
   right: 0;
 }
 .div {
@@ -16,5 +22,5 @@
   left: 0;
 }
 .omsd {
-  margin-top: 80px;
+  margin-bottom: 80px;
 }
